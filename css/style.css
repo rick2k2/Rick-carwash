@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/********************** css reset  **********************/
+
+
+
+/* global var  */
+:root{
+    --yellowcol:#ffc107;
+    --bgcol:rgb(36, 36, 36);
+}
+/********************** All used color here end **********************/
+
+
+
+
+nav{
+    z-index: 1;
+    /* position: fixed;
+    top: 10px;
+    background-color:#000 !important; */
+}
+.nav_active{
+    color: var(--yellowcol) !important;
+}
+.link_hover{
+    color:#fff !important;
+    transition: 0.15s;
+}
+.link_hover:hover{
+    color: var(--yellowcol) !important;
+}
+
+
+/* remember !! fixed nav code here */
+/* navbar fixed code here */
+
+  
+  .blue{
+    position:fixed;
+    top:0;
+    width:100%;
+    height:80px;
+  } 
+/********************** nav end **********************/
+
+
+
+
+
+
+#carouselExampleCaptions{
+    /* background: red !important; */
+    width: 100%;
+    height: 690px;
+    /* border: 3px solid blue; */
+    position: relative;
+    top: -90px;
+}
+#carosoul_img_seeting{
+    width: 100%;
+    height:690px;
+    
+}
+.cp , .cn{
+    background: transparent;
+    padding: 15px 15px;
+    display: inline-block;
+    border: 3px solid #fff !important;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #fff !important;
+}
+.text_color{
+    position: relative;
+    top:-260px;
+    left: -200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5rem;
+    animation:backInDown;
+    animation-duration: 1s;
+}
+.yellow_col{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-left: 40px;
+    color:var(--yellowcol) !important;
+    animation:backInUp;
+    animation-duration: 2s;
+}
+.carousel-indicators{
+    /* border: 3px solid red; */
+}
+.style_bbutton{
+    border: 1px solid var(--yellowcol) !important;
+    width: 15px !important;
+    height:15px !important;
+    border-radius: 50px;
+    margin-top: -90px;
+}
+/********************** carousal end **********************/
+
+
+
+
+
+
+
+.banner{
+    position: relative;
+    margin-top: -130px;
+}
+/********************** banner end **********************/
+
+
+
+
+
+.p_align{
+    position: relative;
+    left: 350px;
+   
+}
+.design_box{
+    padding: 18px;
+    border: 1px solid rgb(101, 98, 98);
+    color: #fff;
+}
+.overall_bg{
+    background:var(--bgcol);
+}
+.fab{
+    font-size: 30px;
+    color: var(--yellowcol);
+    padding: 10px;
+}
+/********************** Services end **********************/
+
+
+
+
+
+
+
+
+.designAbout{
+    /* border: 3px solid red; */
+    height: 500px;
+}
+.img_align_about{
+    width: 800px;
+    height: 300px;
+}
+.color_about_text{
+    background: var(--yellowcol);
+} 
+.btn_style{
+    border: 1px solid #000 !important;
+    position: relative;
+    left:20px;
+}
+.btn_style:hover{
+    border: 1px solid #000 !important;
+    background: tomato !important;
+    color: #fff !important;
+}
+
+/********************** About end **********************/
+
+
+
+
+
+
+
+
+.contentVideo{
+    /* border: 5px solid red; */
+    position: relative;
+    top:-50px;
+    background-color: var(--bgcol)!important;
+    width: 100% !important  ;
+    /* height: 500px !important; */
+}
+.color_about_text2{
+    background: var(--bgcol)!important;
+    color: #fff!important;
+}
+.img_style_content_video{
+    border: 5px solid burlywood;
+    width: 100%;
+    height: 500px;
+}
+.video_layer{
+    width: 100%;
+    height: 100%;
+    background: var(--bgcol)!important;
+}
+iframe{
+    position: relative;
+    left: 100px;
+    top:30px;
+}
+/********************** Content video end **********************/
+
+
+
+
+
+
+
+.protfolio_bg{
+    /* border: 5px solid red; */
+    background: var(--bgcol)!important;
+    position: relative;
+    top:-55px;
+}
+/********************** protfoilo  end **********************/
+
+
+
+
+.our_team_bg{
+    background: var(--bgcol)!important;
+    position: relative;
+    top:-55px;
+    color: #fff !important;
+}
+/********************** team bg  end **********************/
+
+
+
+
+
+.price_bg{
+    background: var(--bgcol) !important;
+    position: relative;
+    top:-55px;
+    color: #fff !important;
+}
+/********************** price bg  end **********************/
+
+
+
+
+
+
+.testimonial_bg{
+    background: var(--yellowcol) !important;
+    position: relative;
+    top:-55px;
+    color: #000 !important;
+}
+/********************** testimonial_bg  end **********************/
+
+
+
+.contact_bg{
+    background: var(--bgcol) !important;
+    position: relative;
+    top:-55px;
+    color: #fff !important;
+
+}
+/********************** contact_bg  end **********************/
+
+
+
